@@ -82,6 +82,48 @@
         <div class="footer_title">LOGGER</div>
         <div class="footer_address">〒123-456 福島県港区浜松町1-2-3</div>
         <div class="footer_url">http://hogehoge.net</div>
+        <div class="footer_menu">
+            <div class="footer_menu-card">
+                <div class="footer_menu-title">
+                    About
+                </div>
+                <div class="footer_menu-item">
+                    <ul>
+                        <li><a href="#">Start</a></li>
+                        <li><a href="#">Access</a></li>
+                        <li><a href="#">Map</a></li>
+                        <li><a href="#">Member</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_menu-card">
+                <div class="footer_menu-title">
+                    Support
+                </div>
+                <div class="footer_menu-item">
+                    <ul>
+                        <li><a href="#">Download</a></li>
+                        <li><a href="#">Manual</a></li>
+                        <li><a href="#">Q&A</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_menu-card">
+                <div class="footer_menu-title">
+                    Contents
+                </div>
+                <div class="footer_menu-item">
+                    <ul>
+                        <li><a href="#">information</a></li>
+                        <li><a href="#">business</a></li>
+                        <li><a href="#">profile</a></li>
+                        <li><a href="#">engineer</a></li>
+                        <li><a href="#">blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>
 </body>

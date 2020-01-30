@@ -163,7 +163,41 @@ footer {
     font-size: 12px;
 }
 
+.footer_menu {
+    margin-top: 20px;
+}
 
+.footer_menu-card {
+    padding: 10px
+}
+
+.footer_menu-title {
+    font-size: 14px;
+    border-bottom: solid 1px currentColor;
+}
+
+.footer_menu-item a {
+    font-size: 10px;
+    color: inherit;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.footer_menu-item ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.footer_menu-item a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+@media(max-width: 767px){
+    .footer_menu-title {
+        width: 60vw;
+    }
+}
 
 @media (min-width: 768px) {
     .conA h1 {
@@ -203,5 +237,13 @@ footer {
     .conD .text{
         flex: 1;
         padding: 50px;
+    }
+
+    .footer_menu {
+        display: flex;
+    }
+
+    .footer_menu-card{
+        flex: 1;
     }
 }
