@@ -10,6 +10,7 @@
 <body>
 <section class="conA">
     <div class="container">
+        <img src="{{asset('img/series_a/logo.svg')}}" alt="">
         <h1>LOGGER</h1>
         <p>サンプルライフログ</p>
     </div>

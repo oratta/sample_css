@@ -25,8 +25,11 @@ body {
     background-size: cover;
     color: #fff;
     color: var(--text-bright-color);
-
     text-align: center;
+}
+
+.conA img {
+    width: 20%;
 }
 
 .conA h1 {
