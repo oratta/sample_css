@@ -4,6 +4,7 @@
     --main-color: #5D9AB2;
     --accent-color: #BF6A7A;
     --dark-color: #2B5566;
+    --text-bright-color: #fff;
 }
 
 /* 基本設定 : ページ全体 */
@@ -14,6 +15,17 @@ body {
 
 /* content A: Hero image */
 .conA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    min-height: 450px;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("/img/series_a/fruits.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    color: var(--text-bright-color);
+
     text-align: center;
 }
 
