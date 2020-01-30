@@ -115,7 +115,7 @@ body {
     color: var(--icon-color);
 }
 
-.conC, .conD {
+.conC {
     background-color: var(--main-color);
     color: var(--text-bright-color);
 }
@@ -129,6 +129,18 @@ body {
     background-image: url(/img/series_a/note.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.conD .container{
+    padding-top: 2px;
+}
+
+.conD .photo {
+    background-image: url(/img/series_a/life.jpg);
+}
+
+.conD a {
+    box-shadow: 0 0 0 1px #888;
 }
 
 
@@ -156,5 +168,10 @@ body {
     .conC .text, .conD .text{
         flex: 2;
         padding: 50px;
+    }
+
+    .conD .container{
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
