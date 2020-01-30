@@ -16,5 +16,16 @@
         <a href="#">ライフログを始める</a>
     </div>
 </section>
+<section class="conB">
+    <div class="container">
+        <div class="text">
+            <h2>
+                ライフログって何？
+            </h2>
+            <p>いろんなことを記録して、いろんな楽しみ方をしようよ</p>
+            <a href="#">More...</a>
+        </div>
+    </div>
+</section>
 </body>
 </html>

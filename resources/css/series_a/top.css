@@ -63,6 +63,29 @@ body {
     font-size: 18px;
 }
 
+.conB h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.conB p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.8; /* default is 1.5 */
+    opacity: 0.7;
+}
+
+.conB a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.conB a:hover {
+    text-decoration: underline;
+}
+
 @media (min-width: 768px) {
     .conA h1 {
         font-size: 115px;
