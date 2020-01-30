@@ -51,5 +51,18 @@
         </div>
     </div>
 </section>
+<section class="conC">
+    <div class="container">
+        <div class="photo"></div>
+        <div class="text">
+            <h2>面倒な作業は全部おまかせ</h2>
+            <p>どんなに面倒くさいことも、よく考えてみてください。それって本当に面倒くさいですか？面倒くさいと思うことを面倒くさいと思っていませんか？逆に言うと、面倒くさいと思わなければ面倒くさくなくなると思いませんか？こんな事言われて、今面倒くさい気持ちですよね？</p>
+            <a href="#">
+                詳しい方法を確認する
+                <span class="mdi mdi-arrow-right-circle" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+</section>
 </body>
 </html>
