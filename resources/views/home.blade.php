@@ -71,7 +71,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="{{ route('...') }}"></a>
+                    <a href="{{ route('series_a.top') }}">training series A</a>
                 </div>
             </div>
         </div>

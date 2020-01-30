@@ -5,3 +5,9 @@
     --accent-color: #BF6A7A;
     --dark-color: #2B5566;
 }
+
+/* 基本設定 : ページ全体 */
+body {
+    margin: 0;
+    font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+}
