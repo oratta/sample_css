@@ -32,6 +32,22 @@ body {
     width: 20%;
 }
 
+.conA a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: solid 3px currentColor;
+    border-radius: 6px;
+    background-color: var(--accent-color);
+    color: var(--text-bright-color);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.conA a:hover {
+    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2));
+}
+
 .conA h1 {
     margin-top: 0;
     margin-bottom: 10px;

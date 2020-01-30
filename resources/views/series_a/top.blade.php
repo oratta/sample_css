@@ -13,6 +13,7 @@
         <img src="{{asset('img/series_a/logo.svg')}}" alt="">
         <h1>LOGGER</h1>
         <p>サンプルライフログ</p>
+        <a href="#">ライフログを始める</a>
     </div>
 </section>
 </body>
