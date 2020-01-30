@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/', function () {
+    return view('home');
+})->name('home');
+
+Route::get('/series_a/top', function () {
+    return view('series_a.top');
+})->name('series_a.top');
