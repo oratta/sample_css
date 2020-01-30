@@ -120,6 +120,10 @@ body {
     color: var(--text-bright-color);
 }
 
+.conC .text{
+    padding: 20px;
+}
+
 .conC .photo {
     min-height: 200px;
     background-image: url(/img/series_a/note.jpg);
@@ -135,7 +139,7 @@ body {
         font-size: 24px;
     }
 
-    .conB .container {
+    .conB .container, .conC .container {
         display: flex;
         max-width: var(--large-width);
         margin-left: auto;
@@ -143,5 +147,13 @@ body {
     }
     .conB .text{
         flex: 1;
+    }
+
+    .conC .photo{
+        flex: 3;
+    }
+    .conC .text{
+        flex: 2;
+        padding: 50px;
     }
 }
