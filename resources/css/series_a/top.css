@@ -162,16 +162,25 @@ body {
         flex: 1;
     }
 
-    .conC .photo, .conD .photo{
+    .conC .photo{
         flex: 3;
     }
-    .conC .text, .conD .text{
+    .conC .text{
         flex: 2;
         padding: 50px;
     }
 
     .conD .container{
+        flex-direction: row-reverse;
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+
+    .conD .photo{
+        flex: 0 0 400px;
+    }
+    .conD .text{
+        flex: 1;
+        padding: 50px;
     }
 }
