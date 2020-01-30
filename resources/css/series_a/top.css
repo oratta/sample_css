@@ -11,3 +11,20 @@ body {
     margin: 0;
     font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
 }
+
+/* content A: Hero image */
+.conA {
+    text-align: center;
+}
+
+.conA h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 48px;
+}
+
+.conA p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+}
