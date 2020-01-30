@@ -193,9 +193,19 @@ footer {
     background-color: rgba(0,0,0,0.3);
 }
 
+.footer_copyright {
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
 @media(max-width: 767px){
     .footer_menu-title {
         width: 60vw;
+    }
+
+    .footer_menu-card {
+        padding: 10px 0px;
     }
 }
 
@@ -239,8 +249,20 @@ footer {
         padding: 50px;
     }
 
+    .footer_content {
+        display: flex;
+        max-width: var(--large-width);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer_info{
+        flex: 0 0 40%;
+    }
+
     .footer_menu {
         display: flex;
+        flex: 0 0 60%;
     }
 
     .footer_menu-card{
