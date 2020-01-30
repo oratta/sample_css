@@ -77,5 +77,12 @@
         </div>
     </div>
 </section>
+<footer>
+    <div class="footer_content">
+        <div class="footer_title">LOGGER</div>
+        <div class="footer_address">〒123-456 福島県港区浜松町1-2-3</div>
+        <div class="footer_url">http://hogehoge.net</div>
+    </div>
+</footer>
 </body>
 </html>
