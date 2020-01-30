@@ -35,7 +35,7 @@ body {
     width: 20%;
 }
 
-.conA a, .conC a {
+.conA a, .conC a, .conD a {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 30px;
@@ -47,7 +47,7 @@ body {
     text-decoration: none;
 }
 
-.conA a:hover, .conC a:hover {
+.conA a:hover, .conC a:hover, .conD a:hover {
     background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2));
 }
 
@@ -78,13 +78,13 @@ body {
     text-align: center;
 }
 
-.conB h2, .conC h2{
+.conB h2, .conC h2, .conD h2{
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 20px;
 }
 
-.conB p, .conC p {
+.conB p, .conC p, .conD p {
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 14px;
@@ -115,21 +115,22 @@ body {
     color: var(--icon-color);
 }
 
-.conC {
+.conC, .conD {
     background-color: var(--main-color);
     color: var(--text-bright-color);
 }
 
-.conC .text{
+.conC .text, .conD .text{
     padding: 20px;
 }
 
-.conC .photo {
+.conC .photo, .conD .photo {
     min-height: 200px;
     background-image: url(/img/series_a/note.jpg);
     background-position: center;
     background-size: cover;
 }
+
 
 @media (min-width: 768px) {
     .conA h1 {
@@ -139,7 +140,7 @@ body {
         font-size: 24px;
     }
 
-    .conB .container, .conC .container {
+    .conB .container, .conC .container, .conD .container {
         display: flex;
         max-width: var(--large-width);
         margin-left: auto;
@@ -149,10 +150,10 @@ body {
         flex: 1;
     }
 
-    .conC .photo{
+    .conC .photo, .conD .photo{
         flex: 3;
     }
-    .conC .text{
+    .conC .text, .conD .text{
         flex: 2;
         padding: 50px;
     }

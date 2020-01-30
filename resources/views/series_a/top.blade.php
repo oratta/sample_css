@@ -64,5 +64,18 @@
         </div>
     </div>
 </section>
+<section class="conD">
+    <div class="container">
+        <div class="photo"></div>
+        <div class="text">
+            <h2>そろそろ疲れた？</h2>
+            <p>もう3時間も作っているからそろそろ疲れてきたんじゃない？作っていると言っても環境設定に1時間近くかかったので、実際の構築時間は2時間くらいで、まだ行けるんじゃない？まだ行けるんじゃない？社畜がぁぁ！！</p>
+            <a href="#">
+                詳しい方法を確認する
+                <span class="mdi mdi-arrow-right-circle" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+</section>
 </body>
 </html>
