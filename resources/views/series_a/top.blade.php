@@ -83,6 +83,31 @@
             <div class="footer_title">LOGGER</div>
             <div class="footer_address">〒123-456 福島県港区浜松町1-2-3</div>
             <div class="footer_url">http://hogehoge.net</div>
+            <div class="footer_icon">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="mdi mdi-alien-outline" aria-hidden="true"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="mdi mdi-alien-outline" aria-hidden="true"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="mdi mdi-alien-outline" aria-hidden="true"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="mdi mdi-alien-outline" aria-hidden="true"></span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
         </div>
         <div class="footer_menu">
             <div class="footer_menu-card">

@@ -189,7 +189,7 @@ footer {
     list-style: none;
 }
 
-.footer_menu-item a:hover {
+.footer_menu-item a:hover, .footer_icon a:hover {
     background-color: rgba(0,0,0,0.3);
 }
 
@@ -197,6 +197,31 @@ footer {
     text-align: center;
     font-size: 12px;
     padding-bottom: 20px;
+}
+
+.footer_icon {
+    margin-top: 20px;
+}
+
+.footer_icon ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.footer_icon a {
+    margin-right: 5px;
+    display: block;
+    font-size: 15px;
+    color: inherit;
+    padding: 0;
+    text-decoration: none;
+    border: solid 1px currentColor;
+    width: 2em;
+    line-height: 2em;
+    border-radius: 50%;
+    text-align: center;
 }
 
 @media(max-width: 767px){
