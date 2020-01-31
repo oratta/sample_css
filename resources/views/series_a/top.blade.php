@@ -14,6 +14,23 @@
         <div class="header_logo">
             <a href="{{ route('series_a.top') }}">LOGGER</a>
         </div>
+        <nav class="header_menu">
+            <ul>
+                <li class="header_menu-item">
+                    <a href="#">Top</a>
+                </li>
+                <li class="header_menu-item">
+                    <a href="#">Contents</a>
+                </li>
+                <li class="header_menu-item">
+                    <a href="#">About</a>
+                </li>
+                <li class="header_menu-item">
+                    <a href="#">Info</a>
+                </li>
+
+            </ul>
+        </nav>
     </div>
 </header>
 
