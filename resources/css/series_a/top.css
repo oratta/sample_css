@@ -254,6 +254,20 @@ header {
     opacity: 0.7;
 }
 
+.header_menu-button {
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    background: none;;
+    font-size: 28px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.header_menu-button:hover {
+    opacity: 0.3;
+}
+
 @media(max-width: 767px){
     .footer_menu-title {
         width: 60vw;
@@ -261,6 +275,16 @@ header {
 
     .footer_menu-card {
         padding: 10px 0px;
+    }
+
+    .header_base {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header_menu {
+        display: none;
     }
 }
 
@@ -322,5 +346,26 @@ header {
 
     .footer_menu-card{
         flex: 1;
+    }
+
+    .header_content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: var(--large-width);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header_menu {
+        display: block !important;
+    }
+
+    .header_menu ul{
+        display: flex;
+    }
+
+    .header_menu-button {
+        display: none;
     }
 }

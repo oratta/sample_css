@@ -7,12 +7,25 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="{{asset('css/series_a/top.css')}}" rel="stylesheet" >
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script>
+        $(function(){
+            $(".header_menu-button").click(function(){
+                $(".header_menu").slideToggle();
+            });
+        });
+    </script>
 </head>
 <body>
 <header>
     <div class="header_content">
-        <div class="header_logo">
-            <a href="{{ route('series_a.top') }}">LOGGER</a>
+        <div class="header_base">
+            <div class="header_logo">
+                <a href="{{ route('series_a.top') }}">LOGGER</a>
+            </div>
+            <button type="button" class="header_menu-button">
+                <span class="mdi mdi-menu"></span>
+            </button>
         </div>
         <nav class="header_menu">
             <ul>
@@ -28,7 +41,6 @@
                 <li class="header_menu-item">
                     <a href="#">Info</a>
                 </li>
-
             </ul>
         </nav>
     </div>
