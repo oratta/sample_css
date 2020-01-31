@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
 </head>
 <body>
+<header>
+    <div class="header_content">
+        <div class="header_logo">
+            <a href="{{ route('series_a.top') }}">LOGGER</a>
+        </div>
+    </div>
+</header>
+
 <section class="conA">
     <div class="container">
         <img src="{{asset('img/series_a/logo.svg')}}" alt="">
