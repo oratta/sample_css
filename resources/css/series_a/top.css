@@ -8,6 +8,7 @@
     --icon-color: #fff;
     --icon-bk-color: #ddd;
     --large-width: 1000px;
+    --gray-color: #ddd;
 }
 
 /* 基本設定 : ページ全体 */
@@ -236,6 +237,7 @@ header {
 
 .static_header {
     position: static;
+    border-bottom: solid 1px var(--gray-color);
 }
 
 .header_logo {
