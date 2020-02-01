@@ -17,7 +17,7 @@
     </script>
 </head>
 <body>
-<header>
+<header class="{{ isset($headerClass)? $headerClass :''}}">
     <div class="header_content">
         <div class="header_base">
             <div class="header_logo">
@@ -33,7 +33,7 @@
                     <a href="#">Top</a>
                 </li>
                 <li class="header_menu-item">
-                    <a href="#">Contents</a>
+                    <a href="{{route('series_a.content')}}">Contents</a>
                 </li>
                 <li class="header_menu-item">
                     <a href="#">About</a>

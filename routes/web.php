@@ -22,3 +22,7 @@ Route::get('/', function () {
 Route::get('/series_a/top', function () {
     return view('series_a.top');
 })->name('series_a.top');
+
+Route::get('/series_a/content', function () {
+    return view('series_a.content');
+})->name('series_a.content');

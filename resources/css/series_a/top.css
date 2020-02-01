@@ -234,6 +234,10 @@ header {
     background-color: rgba(255,255,255,0.5);
 }
 
+.static_header {
+    position: static;
+}
+
 .header_logo {
     display: inline-block;
     line-height: 70px;
