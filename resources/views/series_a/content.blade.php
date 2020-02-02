@@ -8,6 +8,16 @@
 
 <article class="post">
     <div class="container">
+        <div class="breadcrumbs">
+            <ol>
+                <li>
+                    <a href="{{route('series_a.top')}}">トップ</a>
+                </li>
+                <li>
+                    <a href="#">記事一覧</a>
+                </li>
+            </ol>
+        </div>
         <h1>ライフログのはじめ方</h1>
         <img src="{{asset('img/series_a/life.jpg')}}" alt="">
         <p>
