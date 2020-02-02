@@ -304,6 +304,10 @@ header {
     margin-right: auto;
 }
 
+.post img{
+    width: 100%;
+}
+
 .post h1 {
     padding-left: 10px;
     font-size: 2rem;

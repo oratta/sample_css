@@ -9,6 +9,7 @@
 <article class="post">
     <div class="container">
         <h1>ライフログのはじめ方</h1>
+        <img src="{{asset('img/series_a/life.jpg')}}" alt="">
         <p>
             ライフログのはじめ方ってしってる？始め方とかの概念ってあるの？
             <br>
