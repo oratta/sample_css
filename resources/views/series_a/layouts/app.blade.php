@@ -36,7 +36,7 @@
                     <a href="{{route('series_a.content')}}">Contents</a>
                 </li>
                 <li class="header_menu-item">
-                    <a href="#">About</a>
+                    <a href="{{route('series_a.about')}}">About</a>
                 </li>
                 <li class="header_menu-item">
                     <a href="#">Info</a>

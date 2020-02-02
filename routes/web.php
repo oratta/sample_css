@@ -26,3 +26,7 @@ Route::get('/series_a/top', function () {
 Route::get('/series_a/content', function () {
     return view('series_a.content');
 })->name('series_a.content');
+
+Route::get('/series_a/about', function () {
+    return view('series_a.about');
+})->name('series_a.about');
