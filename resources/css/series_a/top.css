@@ -248,8 +248,13 @@ header {
     background-color: var(--main-color);
     color: var(--text-bright-color);
     font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2em;
     font-size: 24px;
     text-decoration: none;
+}
+
+.header_logo a{
+    color: inherit;
 }
 
 .header_menu-item a {
