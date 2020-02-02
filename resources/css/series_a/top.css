@@ -9,12 +9,30 @@
     --icon-bk-color: #ddd;
     --large-width: 1000px;
     --gray-color: #ddd;
+    --middle-width: 800px;
+}
+
+@media (max-width: 599px){
+    :root {
+        font-size: 14px;
+    }
+}
+@media (min-width: 600px) and (max-width: 799px){
+    :root {
+        font-size: 16px;
+    }
+}
+@media (min-width: 800px) {
+    :root {
+        font-size: 18px;
+    }
 }
 
 /* 基本設定 : ページ全体 */
 body {
     margin: 0;
     font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+    font-size: 16px;
 }
 
 ul {
@@ -277,6 +295,24 @@ header {
 
 .header_menu-button:hover {
     opacity: 0.3;
+}
+
+.post .container {
+    padding: 30px 10px;
+    max-width: var(--middle-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post h1 {
+    padding-left: 10px;
+    font-size: 2rem;
+    border-left: solid 15px var(--accent-color);
+}
+
+.post p {
+    font-size: 1rem;
+    line-height: 2;
 }
 
 @media(max-width: 767px){

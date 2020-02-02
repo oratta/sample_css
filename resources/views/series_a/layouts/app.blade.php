@@ -30,7 +30,7 @@
         <nav class="header_menu">
             <ul>
                 <li class="header_menu-item">
-                    <a href="#">Top</a>
+                    <a href="{{route('series_a.top')}}">Top</a>
                 </li>
                 <li class="header_menu-item">
                     <a href="{{route('series_a.content')}}">Contents</a>
